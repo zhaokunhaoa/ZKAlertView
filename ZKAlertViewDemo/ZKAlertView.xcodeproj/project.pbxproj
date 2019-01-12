@@ -1,0 +1,404 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		785056084C55DADE35B822AA /* libPods-ZKAlertView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6857EB76312D26DA06B5296B /* libPods-ZKAlertView.a */; };
+		BC82BACC21EA07C700E2364C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82BACB21EA07C700E2364C /* AppDelegate.m */; };
+		BC82BACF21EA07C700E2364C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82BACE21EA07C700E2364C /* ViewController.m */; };
+		BC82BAD221EA07C700E2364C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC82BAD021EA07C700E2364C /* Main.storyboard */; };
+		BC82BAD421EA07CA00E2364C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BC82BAD321EA07CA00E2364C /* Assets.xcassets */; };
+		BC82BAD721EA07CA00E2364C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BC82BAD521EA07CA00E2364C /* LaunchScreen.storyboard */; };
+		BC82BADA21EA07CA00E2364C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82BAD921EA07CA00E2364C /* main.m */; };
+		BC82BAE521EA081F00E2364C /* ZKAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = BC82BAE221EA081F00E2364C /* ZKAlertView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		16D33F55943F94A9B18E7213 /* Pods-ZKAlertView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAlertView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZKAlertView/Pods-ZKAlertView.release.xcconfig"; sourceTree = "<group>"; };
+		6857EB76312D26DA06B5296B /* libPods-ZKAlertView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ZKAlertView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC82BAC721EA07C700E2364C /* ZKAlertView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZKAlertView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BC82BACA21EA07C700E2364C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		BC82BACB21EA07C700E2364C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		BC82BACD21EA07C700E2364C /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		BC82BACE21EA07C700E2364C /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		BC82BAD121EA07C700E2364C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BC82BAD321EA07CA00E2364C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BC82BAD621EA07CA00E2364C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BC82BAD821EA07CA00E2364C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BC82BAD921EA07CA00E2364C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BC82BAE221EA081F00E2364C /* ZKAlertView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZKAlertView.m; sourceTree = "<group>"; };
+		BC82BAE321EA081F00E2364C /* ZKAlertView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZKAlertView.h; sourceTree = "<group>"; };
+		E084D8C8098A8B87FF318267 /* Pods-ZKAlertView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZKAlertView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZKAlertView/Pods-ZKAlertView.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BC82BAC421EA07C700E2364C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				785056084C55DADE35B822AA /* libPods-ZKAlertView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2916E68639A9D8060199E012 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6857EB76312D26DA06B5296B /* libPods-ZKAlertView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B8C5DAF6EB3D8BE7FE1FB315 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E084D8C8098A8B87FF318267 /* Pods-ZKAlertView.debug.xcconfig */,
+				16D33F55943F94A9B18E7213 /* Pods-ZKAlertView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BC82BABE21EA07C700E2364C = {
+			isa = PBXGroup;
+			children = (
+				BC82BAC921EA07C700E2364C /* ZKAlertView */,
+				BC82BAC821EA07C700E2364C /* Products */,
+				B8C5DAF6EB3D8BE7FE1FB315 /* Pods */,
+				2916E68639A9D8060199E012 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BC82BAC821EA07C700E2364C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BC82BAC721EA07C700E2364C /* ZKAlertView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC82BAC921EA07C700E2364C /* ZKAlertView */ = {
+			isa = PBXGroup;
+			children = (
+				BC82BAE021EA081F00E2364C /* Classes */,
+				BC82BACA21EA07C700E2364C /* AppDelegate.h */,
+				BC82BACB21EA07C700E2364C /* AppDelegate.m */,
+				BC82BACD21EA07C700E2364C /* ViewController.h */,
+				BC82BACE21EA07C700E2364C /* ViewController.m */,
+				BC82BAD021EA07C700E2364C /* Main.storyboard */,
+				BC82BAD321EA07CA00E2364C /* Assets.xcassets */,
+				BC82BAD521EA07CA00E2364C /* LaunchScreen.storyboard */,
+				BC82BAD821EA07CA00E2364C /* Info.plist */,
+				BC82BAD921EA07CA00E2364C /* main.m */,
+			);
+			path = ZKAlertView;
+			sourceTree = "<group>";
+		};
+		BC82BAE021EA081F00E2364C /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				BC82BAE321EA081F00E2364C /* ZKAlertView.h */,
+				BC82BAE221EA081F00E2364C /* ZKAlertView.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BC82BAC621EA07C700E2364C /* ZKAlertView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BC82BADD21EA07CA00E2364C /* Build configuration list for PBXNativeTarget "ZKAlertView" */;
+			buildPhases = (
+				9994AC0D14D9DDDF4D17308E /* [CP] Check Pods Manifest.lock */,
+				BC82BAC321EA07C700E2364C /* Sources */,
+				BC82BAC421EA07C700E2364C /* Frameworks */,
+				BC82BAC521EA07C700E2364C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZKAlertView;
+			productName = ZKAlertView;
+			productReference = BC82BAC721EA07C700E2364C /* ZKAlertView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BC82BABF21EA07C700E2364C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Zhao Kun";
+				TargetAttributes = {
+					BC82BAC621EA07C700E2364C = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = BC82BAC221EA07C700E2364C /* Build configuration list for PBXProject "ZKAlertView" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BC82BABE21EA07C700E2364C;
+			productRefGroup = BC82BAC821EA07C700E2364C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BC82BAC621EA07C700E2364C /* ZKAlertView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BC82BAC521EA07C700E2364C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC82BAD721EA07CA00E2364C /* LaunchScreen.storyboard in Resources */,
+				BC82BAD421EA07CA00E2364C /* Assets.xcassets in Resources */,
+				BC82BAD221EA07C700E2364C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9994AC0D14D9DDDF4D17308E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZKAlertView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BC82BAC321EA07C700E2364C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC82BACF21EA07C700E2364C /* ViewController.m in Sources */,
+				BC82BADA21EA07CA00E2364C /* main.m in Sources */,
+				BC82BACC21EA07C700E2364C /* AppDelegate.m in Sources */,
+				BC82BAE521EA081F00E2364C /* ZKAlertView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BC82BAD021EA07C700E2364C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC82BAD121EA07C700E2364C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BC82BAD521EA07CA00E2364C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BC82BAD621EA07CA00E2364C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BC82BADB21EA07CA00E2364C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		BC82BADC21EA07CA00E2364C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BC82BADE21EA07CA00E2364C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E084D8C8098A8B87FF318267 /* Pods-ZKAlertView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44CZYSLT56;
+				INFOPLIST_FILE = ZKAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanamichi.com.ZKAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BC82BADF21EA07CA00E2364C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D33F55943F94A9B18E7213 /* Pods-ZKAlertView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44CZYSLT56;
+				INFOPLIST_FILE = ZKAlertView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = hanamichi.com.ZKAlertView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BC82BAC221EA07C700E2364C /* Build configuration list for PBXProject "ZKAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82BADB21EA07CA00E2364C /* Debug */,
+				BC82BADC21EA07CA00E2364C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BC82BADD21EA07CA00E2364C /* Build configuration list for PBXNativeTarget "ZKAlertView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BC82BADE21EA07CA00E2364C /* Debug */,
+				BC82BADF21EA07CA00E2364C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BC82BABF21EA07C700E2364C /* Project object */;
+}
